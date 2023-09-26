@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="sty.css">
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+            color: #000000;
+        }
+
+
+        /* p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+            letter-spacing: 0.5px;
+            font-weight: 300;
+            padding: 5px;
+            padding-left: 1px;
+            font-size: 14px;
+            font-size: medium;
+        } */
+
+        .heading {
+            padding-top: 2px;
+            height: 100px;
+        }
+
+        .header ul li {
+            display: flex;
+        }
+
+        .header ul {
+            display: flex;
+            font-display: column;
+            background: #000000;
+            height: 50px;
+            align-items: center;
+            color: #fff;
+        }
+
+        a {
+            width: 150px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 20px;
+            color: #ffffff;
+
+        }
+
+        .heading {
+            background: rgb(88, 88, 90);
+            color: aqua;
+        }
+
+        .text {
+            margin: 30px;
+        }
+
+        .text h1 {
+            color: #000;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 15px;
+            font-size: 40px;
+            letter-spacing: 0.5px;
+
+        }
+
+        .text ol {
+            padding-left: 10px;
+        }
+
+        .text ol li {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            letter-spacing: 0.5px;
+            font-weight: 300;
+            padding: 5px;
+            padding-left: 1px;
+        }
+        li {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            letter-spacing: 0.5px;
+            font-weight: 300;
+            padding: 5px;
+            padding-left: 1px;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            letter-spacing: 0.5px;
+            font-weight: 300;
+            padding: 5px;
+            padding-left: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <br>
+        <h1 align="center">EVALUATION OF DDOS INVASION</h1><br>
+        <h5 align="center">and an introduction of a Hybrid Stastical Model to Detect DDOS Attacks on cloud computing
+            Environment</h5>
+
+    </div>
+    <header>
+
+
+        <nav style="margin-left: 0px;" class="navigation">
+            <a href="index.html">Home</a>
+            <a href="owner.html">Owner</a>
+            <a href="user.html">User</a>
+            <a href="admin.html">Admin</a>
+            <a href="cloud.html">Cloud</a>
+            <a href="PPT.html">Presentation</a>
+
+
+        </nav>
+    </header>
+    <div class="text">
+        <h1><u>What are DDOS Attacks?</u></h1>
+        <ol>
+            <li>
+                <p> DDOS attacks are the malicious attempts to disrupt the normal function of a target computer​</p>
+            </li>
+            <li>
+                <p> It generates the more traffic to the server by sending the multiple bot or fake requests.​ ​</p>
+            </li>
+            <li>
+                <p> These attacks can cause serious damage to the performance and security of online services​ ​</p>
+            </li>
+
+            <li>
+                <p>Due to these attacks the system functionality will get struck and not able to give access to the
+                    original users.​ ​</p>
+            </li>
+
+            <li>
+                <p>So by using this DDOS technique we can find or detect the fake users and original users​</p>
+            </li>
+
+            <li>
+                <p> In a Distributed Denial of Service(DDoS) attack, an attacker uses multiple sources to orchestrate an
+                    attack against a target.​​</p>
+            </li>
+
+            <li>
+                <p>These sources can include distributed groups of malware infected computers, routers, IoT devices, and
+                    other endpoints. ​​</p>
+            </li>
+
+            <li>
+                <p>A Distributed Denial of Service (DDoS) attack is a distributed , co-ordinated attack on the
+                    availability of services of a host server (application server, storage, database Server, or DNS
+                    server) or network resource, launched indirectly through many compromised systems called botnets on
+                    the Internet​​</p>
+            </li>
+
+            <li>
+                <p>DDOS attacks can range from simple network attacks to all cloud resources attacks​​</p>
+            </li>
+
+        </ol>
+
+        <h1><u>System Analysis</u></h1>
+        <h2>Exesting System</h2>
+        <ol>
+            <li>
+                <p>
+
+                    Considering how hackers are using very sophisticated attacking tools and methods to intrude and
+                    disrupt systems, the road ahead for the next generation of intrusion detection system is very
+                    challenging and need a collective effort.​
+
+            <li>
+                <p> While the important aspect of these detection schemes is to defend itself from attacks, those
+                    traditional intrusion detection systems have not adapted to new technological paradigms like mobile
+                    and wireless networks​
+
+            <li>
+                <p> Different schemes have been used with these detection mechanisms. The following table discusses the
+                    advantages and disadvantages of different detection schemes ​</p>
+            </li>
+        </ol>
+
+        <h1><u>Disadvantages of Exesting system</u></h1>
+        <ol>
+            <li>
+                <p>​
+
+                    Different types of DDoS detection methods have been proposed based on different architectures
+                    namely, victim-end, source-end, and in-network​
+            <li>
+                <p>
+                    These detection systems have not adapted to new technologies like mobile and wireless networks​</p>
+            </li>
+        </ol>
+
+        <h1><u>Proposed System</u></h1>
+        <ol>
+            <li>
+                <p>We propose a hybrid model by noticing that two approaches the covariance matrix based and the
+                    entropy-based system – are heuristically similar in that both classify a DDoS attack via measuring
+                    heightened dependency in the data.​</p>
+                </p>
+            </li>
+        </ol>
+
+        <h1><u>Advantages of proposed System</u></h1>
+        <ol>
+            <li>
+                <p>This work would help security researchers to deal with the DDoS differently as compared to the
+                    treatment given while considering traditional IT infrastructure.​
+                </p>
+            </li>
+            <li>
+                <p> We introduce DDOS attack scenario in infrastructure clouds and identify how various elements of
+                    cloud computing are affected by DDOS attacks.​
+                </p>
+            </li>
+            <li>
+                <p>Based on developed taxonomy , we identify weaknesses in the state-of-the-art solution space leading
+                    to future research directions. ​</p>
+            </li>
+        </ol>
+
+
+        <main id="site-content" role="main">
+            <div class="container"><!--Container Start-->
+
+                <div class="single-title">
+                    <h1><u>How to Stop a DDoS Attack?</u></h1>
+                </div>
+                <div class="single-meta">
+                    <div class="lp-date calender mr-3">
+
+                        <article
+                            class="post-2530 post type-post status-publish format-standard has-post-thumbnail hentry category-ddos tag-ddos-attack-prevention tag-ddos-mitigation tag-ddos-prevention tag-how-to-prevent-ddos-attack"
+                            id="post-2530">
+
+                            <div class="post-inner thin ">
+
+                                <div class="entry-content">
+
+                                    <div itemscope="" itemtype="https://schema.org/FAQPage">
+                                        <div class="lastModified"> <span class="last-modified-timestamp"></span></div>
+                                        <ul>
+                                            <p>“<strong><em>Imagine your website is a store, Distributed Denial of
+                                                        Service
+                                                        (DDoS) is like a mob in front of your store that doesn’t let
+                                                        your
+                                                        customers get in</em></strong>
+
+                                            <p>DDoS has emerged as a huge problem for businesses across the world.
+                                                Hackers
+                                                use this attack by overwhelming traffic and victimizing critical web
+                                                resources, which eventually makes the server unavailable to satisfy
+                                                genuine
+                                                requests. </p>
+                                            <p>Take a look at some recent findings that provide a glimpse into the
+                                                lethality
+                                                of a DDoS attack.</p>
+                                            <ul>
+                                                <li style="list-style: initial; margin-left: 30px;">DDoS attacks cost
+                                                    banks
+                                                    up to $100, 000 per hour.</li>
+                                                <li style="list-style: initial; margin-left: 30px;">20% of such attacks
+                                                    last
+                                                    for days and even months.</li>
+                                                <li style="list-style: initial; margin-left: 30px;">87% of the attacked
+                                                    companies were hit more than once.</li>
+                                                <li style="list-style: initial; margin-left: 30px;">13% more <a
+                                                        href="https://www.helpnetsecurity.com/2022/03/28/ddos-attacks-2021/#:~:text=During%20the%20second%20half%20of,million%2C%20a%20NETSCOUT%20report%20reveals."
+                                                        target="_blank" rel="noopener noreferrer">DDoS attacks in
+                                                        2021</a>
+                                                    than in 2019</li>
+                                            </ul>
+                                            <p><img decoding="async" class="alignnone wp-image-19490 size-full"
+                                                    src="https://www.indusface.com/wp-content/uploads/2018/04/DDoS-attack-frequency.png"
+                                                    alt="DDoS attack frequency" width="1102" height="600"
+                                                    srcset="https://www.indusface.com/wp-content/uploads/2018/04/DDoS-attack-frequency.png 1102w, https://www.indusface.com/wp-content/uploads/2018/04/DDoS-attack-frequency-300x163.png 300w, https://www.indusface.com/wp-content/uploads/2018/04/DDoS-attack-frequency-1024x558.png 1024w, https://www.indusface.com/wp-content/uploads/2018/04/DDoS-attack-frequency-768x418.png 768w"
+                                                    sizes="(max-width: 1102px) 100vw, 1102px"></p>
+                                            <p>Source: Netscout</p>
+                                            <p>Regardless of the business you’re in, keeping a business application up
+                                                and
+                                                running is critical to your brand’s reputation, and hackers want to
+                                                exploit
+                                                this weakness with DDoS attacks. The unpredictability of these attacks
+                                                makes
+                                                it difficult to prepare for them, which further incentivizes criminals
+                                                to
+                                                take action.</p>
+                                            <p>Let’s learn more about the problem, and how your business and data
+                                                centers
+                                                can defend against DDoS attacks. <em>Also if you’d like to test a
+                                                    website
+                                                    for risks, start with <a
+                                                        href="https://www.indusface.com/register/plan2.php"
+                                                        target="_blank" rel="noopener noreferrer">AppTrana Free
+                                                        Trial</a>.</em></p>
+                                            <div itemscope="" itemprop="mainEntity"
+                                                itemtype="https://schema.org/Question">
+                                                <h3 itemprop="name"><span class="ez-toc-section"
+                                                        id="what_are_the_types_of_ddos_attacks"></span>What Are the
+                                                    Types of
+                                                    DDoS Attacks?<span class="ez-toc-section-end"></span></h3>
+                                                <div itemscope="" itemprop="acceptedAnswer"
+                                                    itemtype="https://schema.org/Answer">
+                                                    <div itemprop="text">
+                                                        <p><strong>1. Volume-based DDoS attacks</strong></p>
+                                                        <p>This is a classic type of DDoS attack, which exercises a
+                                                            massive
+                                                            amount of traffic to overwhelm bandwidth and makes it
+                                                            impossible
+                                                            for valid traffic to flow in and out of the victim site.
+                                                            Attackers carry out this volumetric DDoS attack to
+                                                            completely
+                                                            saturate the target’s network capacity.</p>
+                                                        <p><strong>2. Protocol-based Attacks</strong></p>
+                                                        <p>These types of DDoS attacks are built to consume the
+                                                            processing
+                                                            capacity of network resources like firewalls, servers, and
+                                                            load
+                                                            balancers by focusing on Layer 3 and 4 protocol
+                                                            communications
+                                                            with mischievous connection requests. In this attack, the
+                                                            packets are created to make communicating servers wait for a
+                                                            non-existing response during a normal handshake protocol.
+                                                        </p>
+                                                        <p><strong>3. Application-based Attacks</strong></p>
+                                                        <p>Most of the sophisticated attacks involve the exploitation of
+                                                            vulnerabilities in the application layer – Layer 7. There is
+                                                            no
+                                                            exception for the DDoS attack as well. In these types of <a
+                                                                href="https://www.indusface.com/learning/what-is-a-ddos-attack/"
+                                                                target="_blank" rel="noopener noreferrer">DDoS
+                                                                attacks</a>,
+                                                            hackers use weaknesses in the application software or web
+                                                            server
+                                                            software, which leads the server to crash or hang. The most
+                                                            standard type of application DDoS attack involves initiating
+                                                            partial requests to a server to consume finite resources and
+                                                            make the entire DB connection pool busy so that it can jam
+                                                            legitimate requests.</p>
+                                                        <p>There are ample sub-types of attacks, which fall into either
+                                                            one
+                                                            of these common types of DDoS protection but show unique
+                                                            characteristics. Some of the popular DDoS attack methods
+                                                            are:
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div itemscope="" itemprop="mainEntity"
+                                                itemtype="https://schema.org/Question">
+                                                <h3 itemprop="name"><span class="ez-toc-section"
+                                                        id="how_to_stop_ddos_attacks"></span><span
+                                                        style="font-weight: 400;">How to Stop DDoS Attacks?</span><span
+                                                        class="ez-toc-section-end"></span></h3>
+                                                <div itemscope="" itemprop="acceptedAnswer"
+                                                    itemtype="https://schema.org/Answer">
+                                                    <div itemprop="text">
+                                                        <h4><u>Step 1: Understand That Every Business Is Vulnerable</u>
+                                                        </h4>
+                                                        <li>
+                                                            <p>The frontline of defense in DDoS protection is
+                                                                understanding how
+                                                                vulnerable your business is.</p>
+                                                        <li>
+                                                            <p>While many DDoS attacks are motivated by revenge,
+                                                                politics,
+                                                                trolling, and terrorism, money is frequently involved.
+                                                                According
+                                                                to cybersecurity analysts, ransom and blackmail are the
+                                                                most
+                                                                common motives behind DDoS attacks. Hackers disrupt web
+                                                                services
+                                                                and hold them against a ransom. Hackers ask for heavy
+                                                                ransom
+                                                                amounts, which when paid, leads to the attack being
+                                                                stopped and
+                                                                services made available to customers.</p>
+                                                            <p><img decoding="async" loading="lazy"
+                                                                    class="aligncenter size-full wp-image-1959 img-fluid"
+                                                                    src="https://www.indusface.com/wp-content/uploads/2019/08/How-to-stop-DDoS-Attack-3.png"
+                                                                    alt="How-to-stop-DDoS-Attack" width="934"
+                                                                    height="351"></p>
+                                                            <p>Similarly, competition motivates people to bring down
+                                                                better-performing rivals while revenge from disgruntled
+                                                                employees leaves a similar impact. Politics, terrorism,
+                                                                war, and
+                                                                diversion techniques cloaking some other hacking
+                                                                attempts are
+                                                                also common reasons for carrying out <a
+                                                                    href="https://www.indusface.com/blog/application-layer-7-ddos-attacks/"
+                                                                    target="_blank"
+                                                                    rel="noopener noreferrer">application DDoS
+                                                                    attacks</a>.</p>
+                                                            <p><strong>Primary Attack Motivation:</strong></p>
+                                                            <p><img decoding="async" loading="lazy"
+                                                                    class="alignnone wp-image-19481 size-full"
+                                                                    src="https://www.indusface.com/wp-content/uploads/2018/04/DDoS-attack-prevention.jpg"
+                                                                    alt="DDoS attack prevention" width="602"
+                                                                    height="314"
+                                                                    srcset="https://www.indusface.com/wp-content/uploads/2018/04/DDoS-attack-prevention.jpg 602w, https://www.indusface.com/wp-content/uploads/2018/04/DDoS-attack-prevention-300x156.jpg 300w"
+                                                                    sizes="(max-width: 602px) 100vw, 602px"></p>
+                                                            <h4><b>Step 2: Deploy&nbsp;Protection Tools</b></h4>
+                                                            <p><b>Network DDoS:</b> Network layer DDoS attacks try to
+                                                                exploit
+                                                                the network by sending in more data packets than what a
+                                                                server
+                                                                can handle, or abusing bandwidth beyond the network
+                                                                port’s
+                                                                ability. These are often reported in media due to their
+                                                                record-breaking volumes.</p>
+                                                            <p><b>Application DDoS:</b> On the other hand,
+                                                                application-layer
+                                                                attacks are more silent and smaller in volume but cause
+                                                                far more
+                                                                damage. Since most companies deploy their resources on
+                                                                the
+                                                                cloud, hackers now explore attack options beyond the
+                                                                network
+                                                                layer.</p>
+                                                            <blockquote>
+                                                                <p><b><i>“These attacks are also more prevalent due to
+                                                                            lower
+                                                                            resource requirement. For instance, an
+                                                                            application
+                                                                            on Amazon Web Services (AWS) can process SYN
+                                                                            flooding of up to 200,000 packets (‘elastic
+                                                                            bandwidth costs’ is a different discussion
+                                                                            altogether). However, the same AWS server
+                                                                            instance
+                                                                            can be brought down by a meagre 500 HTTP
+                                                                            requests
+                                                                            per second when the application runs on CMS
+                                                                            (Joomla
+                                                                            or WordPress).”</i></b></p>
+                                                            </blockquote>
+                                                            <p>Do you see the difference? 500 HTTP requests per second
+                                                                is a
+                                                                cheaper attack to execute.</p>
+                                                            <p>More sophisticated Layer 7 DDoS attacks not only bring
+                                                                down the
+                                                                server but aid in data breaches too. In such an attack,
+                                                                California State University at Sacramento lost 1800
+                                                                social
+                                                                security and driver’s license numbers from its staff.
+                                                                Attackers
+                                                                used multiple compromised systems to trick the DNS
+                                                                server into
+                                                                leaking the authentication security code.</p>
+                                                            <p>Deploying WAF is one of the best DDoS attack prevention
+                                                                methods.
+                                                            </p>
+                                                            <p><img decoding="async" loading="lazy"
+                                                                    class="aligncenter size-full wp-image-1959 img-fluid"
+                                                                    src="https://www.indusface.com/wp-content/uploads/2019/08/How-to-stop-DDoS-Attack-2.png"
+                                                                    alt="How-to-stop-DDoS-Attack" width="934"
+                                                                    height="351"></p>
+                                                            <p><strong>What is a web application firewall?</strong></p>
+                                                            <p>A web application firewall is the best protection against
+                                                                the
+                                                                most common types of application DDoS attacks. Yet,
+                                                                complete
+                                                                automation doesn’t offer the best network security.
+                                                                Managed <a
+                                                                    href="https://www.indusface.com/web-application-firewall.php/"
+                                                                    target="_blank" rel="noopener noreferrer">Web
+                                                                    Application
+                                                                    Firewall(WAF)</a> screens Layer 7 traffic and feeds
+                                                                data
+                                                                directly to cybersecurity experts who can recognize
+                                                                malicious
+                                                                chunks of traffic trying to bring your services down.
+                                                                Once
+                                                                known, they apply rules and policies to block such
+                                                                attacks based
+                                                                on bot signatures, malicious IPs, and so on. It helps
+                                                                you stop
+                                                                DDoS attacks effectively.</p>
+                                                            <p><img decoding="async" loading="lazy"
+                                                                    class="aligncenter size-full wp-image-1959 img-fluid"
+                                                                    src="https://www.indusface.com/wp-content/uploads/2019/08/How-to-stop-DDoS-Attack-5.png"
+                                                                    alt="How-to-stop-DDoS-Attack" width="934"
+                                                                    height="351"></p>
+                                                            <h4><b>Step 3: Monitor Application Traffic Continuously</b>
+                                                            </h4>
+                                                            <p>Nothing can prepare your business to detect and prevent
+                                                                DDoS
+                                                                attacks better than continuous monitoring. Security
+                                                                experts can
+                                                                distinguish sudden spikes in traffic from bot traffic.
+                                                                Eventually, such monitoring delivers actionable data on
+                                                                attack
+                                                                vectors to define <a
+                                                                    href="https://www.indusface.com/managed-ddos-protection-mitigation.php"
+                                                                    target="_blank" rel="noopener noreferrer">DDoS
+                                                                    protection</a> policies.</p>
+                                                            <blockquote>
+                                                                <p>An application layer distributed denial of service
+                                                                    attack is
+                                                                    initiated by hiring machines, bots, or by taking
+                                                                    control of
+                                                                    remote systems. These components are used for
+                                                                    generating
+                                                                    fake requests to a targeted server. With such a
+                                                                    large number
+                                                                    of fake requests, cyber criminals try to make the
+                                                                    services
+                                                                    of an application or server unavailable for hours,
+                                                                    days or
+                                                                    weeks. A successful DDoS attack can eat huge chunks
+                                                                    of the
+                                                                    bandwidth, processing speed, and memory to slow down
+                                                                    and/or
+                                                                    disrupt applications.</p>
+                                                            </blockquote>
+                                                            <p><img decoding="async" loading="lazy"
+                                                                    class="aligncenter size-full wp-image-1959 img-fluid"
+                                                                    src="https://www.indusface.com/wp-content/uploads/2019/08/How-to-stop-DDoS-Attack-1.png"
+                                                                    alt="How-to-stop-DDoS-Attack" width="934"
+                                                                    height="351"></p>
+                                                            <p>The ease of availability makes an application layer DDoS
+                                                                attack
+                                                                more lethal than a similar network layer attack. Anyone
+                                                                can
+                                                                purchase the custom-coded DDoS module and launch it on
+                                                                any
+                                                                desired web application. In fact, with a little
+                                                                knowledge of
+                                                                underground markets, a basic DDoS attack will not cost
+                                                                the
+                                                                perpetrator more than a few hundred dollars. While there
+                                                                are
+                                                                different types of sophisticated DDoS attacks, this is
+                                                                the most
+                                                                common.</p>
+                                                            <p>When compared to the network layer DDoS, application DDoS
+                                                                is much
+                                                                easier to execute. It requires lower computing power and
+                                                                fewer
+                                                                systems, which still leads to catastrophic results (a
+                                                                primary
+                                                                reason why application DDoS is becoming more prevalent).
+                                                            </p>
+                                                            <p>Take the Slowloris attack for example. Slowloris was
+                                                                originally
+                                                                created to show how a single machine could keep multiple
+                                                                connections open simultaneously for long periods,
+                                                                ultimately
+                                                                crashing the server. Slowloris has become more
+                                                                sophisticated
+                                                                over time, and still just requires up to a few machines
+                                                                (that
+                                                                generate several thousand requests each) to cause a
+                                                                server to
+                                                                run out of connection pools and crash – making it a huge
+                                                                threat.
+                                                            </p>
+                                                            <p><strong>Think Application Layer</strong></p>
+                                                            <p>Application vulnerability exploits that trigger
+                                                                application
+                                                                distributed denial of service are also worth a mention
+                                                                here.
+                                                                Several honeypot operations have shown that attackers
+                                                                can
+                                                                exploit BASH vulnerability to plant malware bots that
+                                                                accept
+                                                                multiple commands including UDP, JUNK, and TCP flood to
+                                                                carry
+                                                                DDoS. Likewise, there is a myriad of other application
+                                                                vulnerabilities that can be exploited to facilitate
+                                                                attacks.</p>
+                                                            <p>When it comes to DDoS attack prevention and DDoS
+                                                                mitigation,
+                                                                there is no silver bullet technology that can solve
+                                                                every
+                                                                problem. With multiple trajectories of attack, ongoing
+                                                                attack
+                                                                methods, and <a
+                                                                    href="https://www.indusface.com/blog/zero-day-vulnerability/"
+                                                                    target="_blank" rel="noopener noreferrer">zero-day
+                                                                    vulnerabilities</a>, automated technology alone is
+                                                                bound to
+                                                                fail. It cannot protect against multiple threats while
+                                                                also
+                                                                ensuring legitimate traffic doesn’t suffer. That is
+                                                                where human
+                                                                experience and decision-making skills come in.
+                                                                Continuous expert
+                                                                monitoring with actionable insights is the most
+                                                                effective
+                                                                combination to stop DDoS attacks and ensure security
+                                                                that can
+                                                                prepare organizations with a proactive defense strategy.
+                                                            </p>
+                                                            <h4><b>Step 4: Inhouse DDoS Security or Managed App
+                                                                    Security</b>
+                                                            </h4>
+                                                            <p>You can hire and train security professionals with Layer
+                                                                7
+                                                                experience to stop DDoS attacks and other application
+                                                                security
+                                                                risks in-house. A dedicated team can monitor attacks and
+                                                                take
+                                                                actions efficiently.</p>
+                                                            <p>However, with the shortage of experienced cybersecurity
+                                                                workforce
+                                                                and massive costs involved in hiring and managing such
+                                                                teams,
+                                                                new businesses invest in managed application security
+                                                                vendors to
+                                                                stop DDoS attacks. Such a team not only offers 24 × 7
+                                                                traffic
+                                                                monitoring and DDoS attack mitigation but complete
+                                                                application
+                                                                security including:</p>
+                                                            <ul>
+                                                                <li style="list-style: initial; margin-left: 30px;">
+                                                                    Latest
+                                                                    security notification to protect your applications
+                                                                    from
+                                                                    known vulnerabilities.</li>
+                                                                <li style="list-style: initial; margin-left: 30px;">
+                                                                    Periodic
+                                                                    penetration testing.</li>
+                                                                <li style="list-style: initial; margin-left: 30px;">
+                                                                    Business
+                                                                    logic tests on all applications to find
+                                                                    vulnerabilities,
+                                                                    zero-day threats, and automated application risks.
+                                                                </li>
+                                                                <li style="list-style: initial; margin-left: 30px;">
+                                                                    Custom WAF
+                                                                    rules to block attacks (via virtual patching).</li>
+                                                                <li style="list-style: initial; margin-left: 30px;">
+                                                                    Tracking the
+                                                                    malicious behavior of an attacker initially versus
+                                                                    simply
+                                                                    blocking the attack.</li>
+                                                                <li style="list-style: initial; margin-left: 30px;">24/7
+                                                                    monitoring to gather information such as IP address,
+                                                                    User ID
+                                                                    if authenticated, GEO location, navigation/user
+                                                                    behavior,
+                                                                    and machine fingerprint that can help gain intel
+                                                                    about the
+                                                                    attacker’s methodologies to use that information in
+                                                                    creating
+                                                                    more aggressive blocking rules from these attackers.
+                                                                </li>
+                                                            </ul>
+                                                            <p>How vulnerable is your website to DDoS attacks? Follow
+                                                                the
+                                                                above-mentioned DDoS prevention steps to secure your
+                                                                website and
+                                                                stay ahead of hackers.</p>
+                                                            <div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="heateorSssClear"></div><!-- .entry-content -->
+                                            </div><!-- .post-inner -->
+
+
+                                    </div><!--Row End-->
+
+
+
+
+
+                                    <!--Col End-->
+
+
+
+                                    <!--Col End-->
+
+
+
+                                </div> <!--Row End-->
+                            </div><!-- Related Post End-->
+
+                    </div><!--Container End-->
+
+
+
+                </div>
+            </div>
+        </main>
+
+
+    </div>
+    <script src="sc.js"></script>
+    <script src="sc.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
